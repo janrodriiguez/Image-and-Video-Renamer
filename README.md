@@ -40,9 +40,12 @@ python Image_and_Video_Renamer.py
 
 ## Configuration
 
+Please, don't modify anything unless you know what you are doing if you want it to keep working
+
 You can configure the tool by modifying the `Image_and_Video_Renamer.py` file.
 
 - `folder_path`: The directory path to search for files.
+  - It is an input so it doesn't really need to be modified.
 - `image_extensions`: List of image extensions to process.
 - `video_extensions`: List of video exttensions to process.
 - `new_file_name`: A format string for renaming files.
